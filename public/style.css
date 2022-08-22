@@ -16,11 +16,32 @@ body {
   background-color: lightcoral;
 }
 
-.single-pet.adopted {
+.adopted {
+  width: 15rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
   background-color: cornflowerblue;
 }
 
 .delete-pet {
   background-color: orange;
   margin: 0.5rem;
+}
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+select {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
